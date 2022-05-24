@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <style type="text/css">
+.scrollspy-example {
+        position: relative;
+        height: 450px;
+        overflow-y: scroll;
+    }
+</style>
+
+    <title>KUNDOM</title>
+  </head>
+  <body>
+    <body class="bg-black">
+
+     <!--Navigation!-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="img/KUN-logo.png" style="height:4rem;width:7rem"><strong>KUNDOM</strong></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">首页</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">作品</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">舞台</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">活动</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">成就</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">时尚资源</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">其他</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-light" type="submit">Search</button>
+    </form>
+    </div>
+  </div>
+</nav>
+
+   <!--Brife Introduction -->
+<div class="card bg-dark text-white" style="margin-top:90px">
+  <img src="img/头像背景图.png" class="card-img" alt="...">
+  <div class="card-img-overlay">
+    <h1 class="card-title">蔡徐坤（KUN）</h1>
+    <h3 class="card-text">1998-08-02</h3>
+    <h4 class="card-text">中国内地男歌手 原创音乐制作人  MV导演 </h4>
+    <div class="card-text wenzi">
+    <p class="card-text">他用作品占据焦点，不断探索音乐领域的审美语言，拥有独树一帜的音乐唱作实力与舞台王者魅力</p>
+    <p class="card-text">他在有限的时间里不断超越每一个当下，是最年轻的“最佳男歌手”，也是突破自我、独一无二，拥有无限可能的原创音乐人</p>
+    <p class="card-text">选秀节目中蔡PD形象深入人心;原创单曲《情人》横扫各大主流音乐奖;个人原创专辑《迷》打破各大平台专辑销售记录;国内首场个人巡回演唱会门票秒罄</p>
+    <p class="card-text">不断刷新个人及行业的巅峰实绩！</p>
+    </div>
+  </div>
+</div>
+
+    <!--Image Slider -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/slide background1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>分享图片</h1>
+        <p>5-20 19:17</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/slide background2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>奔跑吧#爱你四季</h1>
+        <p>22-5-20 奔跑吧第十季第二期 本期主题“爱你四季”！快来看大帅哥在本期的精彩表现吧！直戳单人cut！</p>
+        <button type="button" class="btn btn-outline-light btn-lg">Click</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/slide background3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>汤臣倍健5-21活动直播</h1>
+        <p>元气加持诠释美好，早晚闪耀焕发青春。和@蔡徐坤一起收藏温暖，每一幕，都值得被珍藏。#把时间交给Yep#</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+
+<hr class="my-4">
+
+    <!--近日资讯 -->
+    <div class="container">
+      <div class="row text-white">
+        <div class="col-12">
+          <h3 class="display-4"><strong>菜园广播</strong></h3>
+        </div>
+      </div>
+    </div>
+<hr>
+
+    <!--Card Group 近日资讯 -->
+      <div class="container cardgroup">
+        <div class="row margin-10px">
+         <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/card1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">记一束蓝玫瑰</h3>
+              <p class="card-text">@蔡徐坤工作室</p>
+              <p class="card-text">蓝玫瑰已经逐渐成为一个蔡徐坤作品的符号。包含但不限于执着的艺术追求、初心的坚持、时间流里的陪伴......</p>
+              <p class="card-text">玫瑰在绽放，触目可及，爱而不得</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">工作室官博</small>
+            </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="img/card2.gif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">奔跑吧名场面</h3>
+                <p class="card-text">蔡徐坤一秒进被窝</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">综艺资讯</small>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100">
+                <img src="img/card3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">520专属玫瑰之战，蔡徐坤重新定义浪漫</h3>
+                  <p class="card-text">工作室更新公主号一则</p>
+                  <p class="card-text">向前奔跑的路上，是陪伴，让疾驰而过的风景有了更为珍贵的意义，不只朝夕，不只四季。
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">工作室推文</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+<hr class="light">
+
+     <!-- 专辑介绍 -->
+<div class="container padding">
+	<div class="row padding text-white">
+		<div class="col-lg-8">
+			<h1><strong>2021蔡徐坤全新原创专辑——《迷》</strong></h1>
+      <h3>解构关于音乐的未知集合</h2>
+      <p>🌹</p>
+      <p>🌹</P>
+      <p>🌹</p>
+			<p>2021蔡徐坤全新个人创作专辑《迷》，经历音乐实验及沉淀，跳脱大众对音乐认知的共性和标尺，移植时间与空间的想象力，融合瑰丽乐域与流行理解力，构筑出属于蔡徐坤个人的华语音乐风格。</p>
+			<p>作为专辑掌舵人，蔡徐坤从音乐创作、歌词、编曲到作品成形，全程亲自制作，传递自己对中西流行音乐的思考，愈发成熟的吟喃唱腔，声域更加宽广而内含戏剧性变化，衍生出全新的属于蔡徐坤的特有前沿曲风。</p>
+			<br>
+		</div>
+		<div class="col-lg-4">
+			<img src="img/迷专辑封面.jpg" class="img-thumbnail">
+		</div>
+	</div>
+	<hr class="hr-white">
+</div>
+     <!-- 专辑曲目解读 -->
+     <div class="container">
+       <div class="row">
+     <div id="list-example" class="list-group col-4">
+       <a class="list-group-item list-group-item-action" href="#list-item-1">Intro-《#0000FF》</a>
+       <a class="list-group-item list-group-item-action" href="#list-item-2">主打曲《迷》</a>
+       <a class="list-group-item list-group-item-action" href="#list-item-3">《默片》</a>
+       <a class="list-group-item list-group-item-action" href="#list-item-4">《感受她》</a>
+       <a class="list-group-item list-group-item-action" href="#list-item-5">《怪》</a>
+       <a class="list-group-item list-group-item-action" href="#list-item-6">《梦》</a>
+       <a class="list-group-item list-group-item-action" href="#list-item-7">《interlude》</a>
+       <a class="list-group-item list-group-item-action" href="#list-item-8">《欲》</a>
+       <a class="list-group-item list-group-item-action" href="#list-item-9">《HAHA》</a>
+       <a class="list-group-item list-group-item-action" href="#list-item-10">《nobody cares》</a>
+       <a class="list-group-item list-group-item-action" href="#list-item-11">《爱与痛（outro）》</a>
+     </div>
+     <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example text-white col-8" tabindex="0">
+       <h4 id="list-item-1">Intro-《#0000FF》</h4>
+       <p>代号“0000FF”的纯蓝色是对标“迷”的最佳具象体现，提取自浓度至高的蓝色时刻，这是蔡徐坤两年前在家中完成的创作。中速的钢琴和柔和的鼓点混合电流声，
+         让人沉默着落入他制造的氛围，此刻，这种忧郁给予的安慰，称为安全感。</p>
+       <p>MV的创作、演出和导演由蔡徐坤一人完成，镜头从第二人称的直接对视，到拉出屏幕的局外窥探视角，意味深长。漫天的大水在失控，清晰的音乐在显形，
+         身处其中，蔡徐坤以孑然独立的个体，沉着回应洪流。</p>
+       <p>恢弘迷幻的虚拟音乐世界，他身处其中，任滔浪倾泻，才华作舟，冒险探寻。包揽词曲、制作、A&R企划、MV拍摄及平面指导，蔡徐坤兀自完整构建的巨大迷宫入口，欢迎光临。</p>
+       <h4 id="list-item-2">主打曲《迷》</h4>
+       <p>专辑同名主打曲《迷》撷流行元素调和多种曲风，直击“迷”的核心概念。</p>
+       <p>这是继《情人》之后蔡徐坤再一次向大众展现他独特的音乐理解力和超强的创作能力。音乐中散布的各种设计和细节都经过他的用心打磨，制作精细。
+         音色迷幻感浓烈，性感声线细腻而富有质感，层叠和声交错吟唱，如白砂在计时沙漏里分秒流淌摩擦。</p>
+       <p>这首慵懒迷幻的KUN式情歌，听觉艺术趋向不拘泥于规整，蔡徐坤的原创歌词展现了更加精巧的创作力笔触，与作曲相得益彰，娓娓道来一个似梦非梦的迷离故事。
+         如蔡徐坤讲述，创作溯源来自一个模糊的梦，身边似乎沉睡过一位爱人，醒来她却面目不清，悄然消失，但那感觉并不深刻，“做人质或是偷心的贼”，
+         将盔甲或软肋的迷题巧妙变做对立的堡垒，或许只有在爱里自我戕斗的人才深陷双重身份而不自知，等待着、挥霍着、挟持着爱情，“你留下迷任我去猜”，经过温柔、遗憾、颓废、笃定，
+         最终她在或不在，都只是情之所至的偶发，随着歌曲间奏的一声呼吸轻叹，他再次以从容之姿走入良夜。</p>
+       <h4 id="list-item-3">《默片》</h4>
+       <p>百年时光，不过四目相对，三言两语，一生之盟，都定格成黑白默片。这首电影情节质感的单曲，是蔡徐坤为“迷”写下的一页柔软故事，并以呼吸感强烈的深情唱腔细腻诠释。</p>
+       <p>“百年踪迹百年心”定下了《默片》的曲折基调，情感被赋予轮廓，副歌的变奏转换给人以强烈的听觉记忆点，古今异域的穿越之感跃然耳畔，一曲间历遍近山远水，穿越海市蜃楼，
+         看似恢弘而美到无法诉说的故事底色之上，是“遗落了缱绻，今生还在念”的黯淡结局，悠扬细致的声线之中，蔡徐坤在制作时加入了唱片机的低频音色，与“默片”概念契合。</p>
+       <p>歌曲灵感来源于他脑海中想象的一段穿梭百年不朽的爱。当拾起前世遗留的泪水，纵身跳进时间的洪流，所谓深情若是一桩悲剧，不如我们从头来过。</p>
+       <h4 id="list-item-4">《感受她》</h4>
+       <p>在一首歌的时间里，她存在过。</p>
+       <p>蔡徐坤以一曲复古浪漫之姿的《感受她》跨出SOULPOP流派首步，亦是他调制的一杯名为昨夜的酒，歌曲由蔡徐坤独立作曲，三段式层次感分明的爵士复古调旋律，讲述关于浪漫的娓娓故事。
+         蔡徐坤在编曲中加入的管乐成为点睛之笔，灵感一现，如酒杯中加入的一抹薄荷，朝花夕拾，饮的是心事。</p>
+       <p>蔡徐坤在歌曲的编曲上采用迷幻慵懒的乐器组合，低调幽暗的音效开场预示着一种入夜后的浪漫氛围，在深蓝的情绪中KUN标志性的吟唱出现，
+         音色、人声，展现出低透明度，性感磁性。合成器、鼓、BASS不徐不急渐次浮现，复古感、SOUL、POP如三种毫不违和的预制酒，渗透融合在他的音色中。
+         婉约如画的歌词在遗忘后开始，一句句文字走进深夜的阒静，灯影绰绰，是适合感受的时刻：我遇到过一个热烈的女子，却要花一生的精力去忘记，去与想念和希望斗争；
+         用一场必输的赌局，赔上一生的情动。</p>
+       <p>请用一首歌的时间遇见她、错过她、感受她，然后，戒了她。</p>
+       <h4 id="list-item-5">《怪》</h4>
+       <p>恶童无罪，怪人万岁，蔡徐坤原创作词、作曲、统筹制作的专辑第五首歌曲《怪》乱序释出。浓烈个人风格与标志性唱腔袒露唱作能力，冲破小众与流行的寸隅界限，打造听觉奇妙物语。</p>
+       <p>《怪》和《#0000FF》是两年前同时期创作的“私人”作品，一天内创作完成，次日录制，《#0000FF》是楔子，《怪》长成一只隐秘巨兽：玩具发条，怪兽低鸣，
+         水珠池塘......看似无关的器物碰撞出阴暗的诡异气氛，这种“不顺从”的听感本身如一道半掩的入口，测你窥探与否。</p>
+       <p>歌曲中全部怪兽声音均由蔡徐坤本人录制，将音域下潜至听觉常理之外，巧用效果器打造出一间人声密室。制作过程中，蔡徐坤无心拿两枚硬币互相击打，
+         意外做出了编曲的音效，与怪兽声同理，皆为天然偶得的不可复制之思。全曲怪诞的创作手法接近电影拍摄，而艺术有趣之处正在于它容许“误读”，
+         开放式的聆听感受给予你怪诞影像般画面，充分接纳所有诠释与情绪。</p>
+       <p>我，厌弃那个天真的我，撕碎那个虚假的我，拥抱那个怪诞的我。“世人都说我怪，自由也变得坏”，有人做着不被操纵的棋子，也有人做着任君戏弄的Playdoh（橡皮泥）。
+         “摧毁我的光环，但请不要带走我所有的光”，蔡徐坤的原创歌词写出一幕游戏人间的情爱诡剧，博弈拉扯，彼此缠绕在难解的莫比乌斯光环，渴求一丝光。</p>
+       <p>《怪》的歌曲封面来源于蔡徐坤的童年照，意寓反差，孩子们被迫迅速长大，世界转起来，天地也不仁，把第一支箭送给了未经污染的灵魂，怪不得我荒唐一唱。
+         当破碎的内在阴暗面幻化成奇形怪状，变成质感与深度迭加的沉浸式艺术表达。从曲风到歌词，足见蔡徐坤两年时间前后的迥异心境，完全释然后，方才发行这首歌曲。</p>
+       <p>一曲咽下善与恶，一首怪歌说自己，从《怪》这一首歌开始，欢迎进入蔡徐坤的艺术篇章。</p>
+       <h4 id="list-item-6">《梦》</h4>
+       <p>幽游一梦，玫瑰人生。</p>
+       <p>如果用一种颜色来形容这首由蔡徐坤全新编曲的《梦》，应是浓度至纯的金色。旧酒新调，经2021蔡徐坤个人演唱会重新编曲制作，融入舞台沉浸感与live乐队元素，
+         Band version的《梦》成为一杯纾解孤独的特调甜酒，携听觉在深夜的上世纪Jazz club中微醺起舞。</p>
+       <p>慵懒的唱腔，轻松的俏皮，如云流水的歌词，小号和贝斯轻快笼罩在整首歌中，开篇和结尾呼应的鼓点，如一小枝薄荷，让跟随旋律swag的人更轻省地习惯遗忘，任性地沉醉。</p>
+       <p>历久弥新的原创歌词流露天然的乐天派哲学，“花丛长出了蝴蝶，物是人非的景色里，像梦一样不被提起”，是的，有这样的夜晚，
+         你只需闭眼，随着节奏摇摆，不留一丝情绪，让属于怀念的事情，被吹起，又被掸落。</p>
+       <p>生活需要爵士和甜酒，混合少许纯度的念想，当花丛长出蝴蝶，再重新进入那个夜晚，不悔梦归处。</p>
+       <h4 id="list-item-7">《interlude》</h4>
+       <p>48秒的专辑插曲，生成一支宛如迷幻电影的原声。</p>
+       <p>作曲兼制作人蔡徐坤融合多种配器，鸟鸣、拍手、重鼓、变声电子钢琴重叠沓来，引你步入花园大门。袅袅女声，绝美压抑，哀艳的伊甸园正式对你敞开，闯入斑斓高处，身处化境。</p>
+       <p>前五首流行大气之作，按照楔子《#0000FF》—开篇《迷》—故事《默片》—悬念《感受她》—释然《梦》，
+         到此，历经迷宫的通路又回到了最初的伊甸园，那是混沌与迷局的中转，却又怀着理想的彼岸，载沉载浮，渗入发肤的听觉触感，开启专辑下篇更加晦暗深邃的寒武纪之旅。</p>
+       <h4 id="list-item-8">《欲》</h4>
+       <p>你看黑色狐狸的眼睛，它回以深渊，无论你如何谄媚讨好试图做它的主人，它也不会成为你的玩具。《欲》是专辑最实验性的一首歌，KUN向另一个音乐黑域，献上了一个吻。</p>
+       <p>睥睨的曲风，性感的嗓音，配合呼吸的节奏鼓点，像一场危险游戏，给你极限听觉快感，拉扯和抚平你的神经。无处安置的欲望，随时消费的时间，
+         这首歌的意义不局限于某种单调的玩味，歌词触及每个身处社会巴别塔中追名逐利者的面孔，“当欲望涌上来，窒息”，
+         《欲》是蔡徐坤为听众在最黑的夜晚独家调制的一杯危情之酒。</p>
+       <p>你将如何全情入局，甘作这欲望挟持的伪实验品？</p>
+       <p>又将如何抽身退局，审视这欲擒故纵的禁忌游戏？</p>
+       <p>你对抗欲望，又爱着欲望，被吞噬，又重生，尔后方成为人。</p>
+       <h4 id="list-item-9">《HAHA》</h4>
+       <p>听这首歌的时候，试试关上所有的灯。</p>
+       <p>穿越深夜的丛林，不断前行，专辑进行到《Haha》，蔡徐坤的音乐迷宫已渐入黑暗森林。编曲上精心铺排呈现层次感：幽深、深邃、空旷的钢琴开篇，
+         衔接花腔唱法的“穿过迷雾的森林”，拍手节奏音渐强，而后进入丰富电子音效的运用，强烈律动的鼓和飘渺的人声呼应，营造了一种不确定的空间感和时间感，
+         自我，空灵，颤栗多变的嗓音，以一种古老的发声方式，神秘而充满暗示。</p>
+       <p>蔡徐坤在歌词中暗含深意，画面感丰盛的文字描摹，如只身走在苍白面孔群体中的人，张开每一个毛孔，露出黑色的眼睛，试探游戏的结局。</p>
+       <p>迷离声线，幻花丛生。最后一句“Haha“的响起，让手心渗出瘫软微声的细汗，如同握紧一片灼尽的枯叶。问一句，谁跟我走？听罢，那位不停拷问你灵魂的幽灵，已悄然隐身。</p>
+       <p></p>
+       <p></p>
+       <h4 id="list-item-10">《nobody cares》</h4>
+       <p>夜幕低垂，蔡徐坤在耳边为你谱写一曲入睡前的爱之呓语。</p>
+       <p>像一部缓慢的文艺电影，I’ve been spending all day with you. 睡眠悠长，晨昏漫漫，耳畔是你的关切，如是所闻，无谓真假。</p>
+       <p>几乎仅一架电子钢琴，人声反而变得丰富。极简的编曲突出人声，融为一体。熄灭最后一盏灯，我们都和黑暗化作一体，
+         副歌涌入涨起的潮水，淹没你的耳膜。我凑近你的耳边，绵绵道：I don’t wanna let you	.</p>
+       <p>稍许满足，就浅尝辄止地回味；一点余温，就堆积成反复的回顾。</p>
+       <p>一次笑着的遗忘，一次余幕低垂的浅唱，这，终究不过是脑海中的自我对话。而，爱情不过是一道终将归零的迷局。</p>
+       <p></p>
+       <h4 id="list-item-11">《爱与痛（outro）》</h4>
+       <p>「世界以痛吻我，我却报之以歌。」</p>
+       <p>最后一首童话，迷雾未曾消散，温暖初露曙光。</p>
+       <p>火车轨道的声音徐徐开篇，蔡徐坤用音乐描绘出一个漫画般的世界，只有这里，还有单纯的彩色，以大爱疗愈伤痛。</p>
+       <p>世界上有一种没有脚的鸟，一生都在飞翔，它在风里睡觉，只有死去的时候才能落地。而人啊，一生的伤口，大大小小，深深浅浅，痛如饮水，冷暖自知，却也只能做一只无脚鸟，以一抹红刻下剧终。</p>
+       <p>恢弘的弦乐响起，人声却依然保留最干净的嗓音，简单与复杂的碰撞，那是小鸟和天空，人与世界。生活真正的勇者是，认清伤痛，接受伤痛，而后继续与之相爱。</p>
+       <p>他唱：一生以歌去替代泪水，继续飞，无脚的鸟儿继续飞。</p>
+       <p>他又唱：如果你太累，赠玫瑰给你安慰。</p>
+       <p>如何以伤痛转化为爱，如何以淋湿的双翼安抚穿心的利刃，如何以唇拥吻烈火，如何以泪灌溉人间。
+         愿此刻在听歌的你们，接下我满怀余温的玫瑰，即使这万物爱痛，我也为你唱最后一支歌。</p>
+     </div>
+   </div>
+  </div>
+
+<hr class="light">
+
+   <!-- Fixed background -->
+<figure>
+  <div class="fixed-wrap">
+    <div id="fixed">
+    </div>
+  </div>
+</figure>
+
+     <!-- Social media -->
+ <div class="container-fluid socialmedia">
+   <div class="row text-center">
+     <div class="col-12 text-white">
+       <h2>社交帐号</h2>
+     </div>
+   </div>
+ </div>
+
+ <div class="container">
+   <div class="row">
+     <div class="col text-center text-white ">
+       <img src="img/蔡徐坤微博头像.jpg" class="img-thumbnail rounded-circle">
+       <h4>@蔡徐坤</h4>
+     </div>
+     <div class="col text-center text-white">
+       <img src="img/蔡徐坤工作室微博头像.jpg" class="img-thumbnail rounded-circle">
+       <h4>@蔡徐坤工作室</h4>
+     </div>
+     <div class="col text-center text-white">
+       <img src="img/蔡徐坤广播站微博头像.jpg" class="img-thumbnail rounded-circle">
+       <h4>@蔡徐坤广播站</h4>
+     </div>
+     <div class="col text-center text-white">
+       <img src="img/蔡徐坤ins头像.jpg" class="img-thumbnail rounded-circle">
+       <h4>@caixukun</h4>
+     </div>
+     <div class="col text-center text-white">
+       <img src="img/蔡徐坤工作室ins头像.jpg" class="img-thumbnail rounded-circle">
+       <h4>@kun_studioffical</h4>
+     </div>
+    <div class="col-12 social">
+      <a href="#"><i class="fab fa-weibo"></i></a>
+      <a href="#"><i class="fab fa-weibo"></i></a>
+      <a href="#"><i class="fab fa-weibo"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+   </div>
+ </div>
+
+    <!-- 分割线 -->
+
+
+    <!-- Footer -->
+    <footer>
+    	<div class="container-fluid padding">
+    		<div class="row text-center">
+    			<div class="col-md-4">
+    				<img src="img/KUN-logo.png" style="height:4rem;width:7rem">
+    				<hr class="light">
+    				<p>82-8282-8282</p>
+    				<p>email.KUNDOM.com</p>
+    				<p>100 Street Name</p>
+    				<p>Beijing, Chaoyang, 00000</p>
+    			</div>
+    			<div class="col-md-4">
+    			<hr class="light">
+    			<h5>声明</h5>
+    			<hr class="light">
+    			<p>本站为蔡徐坤资源站</p>
+    			<p>一切素材均来源于网络</p>
+    			<p>禁止商用</p>
+    		</div>
+    		<div class="col-md-4">
+    		<hr class="light">
+    		<h5>关于我们</h5>
+    		<hr class="light">
+    			<p>@蔡徐坤xxx官微</p>
+    			<p>@蔡徐坤xxxx后援会</p>
+    			<p>@雪xx仙子</p>
+    	</div>
+    	<div class="rol-12">
+    		<hr class="light">
+    		<h5>&copy; KUNDOM.com</h5>
+    </div>
+    </div>
+    </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- 国内 Staticfile CDN 上的 Bootstrap5 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
